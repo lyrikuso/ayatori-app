@@ -1,0 +1,57 @@
+{
+  "name": "ayatori",
+  "version": "1.0.2",
+  "description": "Visualize Utanohi's likes dependency",
+  "author": "paithiov909 <paithiov909@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paithiov909/ayatori-nuxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paithiov909/ayatori-nuxt/issues"
+  },
+  "homepage": "https://ayatori.netlify.com/",
+  "license": "MIT",
+  "private": true,
+  "main": "main.js",
+  "build": {
+    "appId": "com.netlify.ayatori",
+    "publish": "github",
+    "mac": {
+      "category": "public.app-category.reference",
+      "target": "dmg"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "directories": {
+      "buildResources": "static"
+    }
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV electron .",
+    "build": "nuxt build && electron-builder --publish 'never'",
+    "test": "yarn --version"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/proxy": "^1.3.3",
+    "bootstrap": "^4.3.1",
+    "clipboard": "^2.0.4",
+    "jquery": "^3.4.1",
+    "list.js": "^1.5.0",
+    "moment": "^2.24.0",
+    "moment-locales-webpack-plugin": "^1.0.7",
+    "nuxt": "^2.0.0",
+    "popper.js": "^1.15.0",
+    "tableexport": "^5.2.0",
+    "underscore": "^1.9.1",
+    "underscore.string": "^3.3.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "electron": "2.0.0-beta.7",
+    "electron-builder": "^20.8.1",
+    "electron-devtools-installer": "^2.2.3"
+  }
+}
