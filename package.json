@@ -5,12 +5,11 @@
   "author": "paithiov909 <paithiov909@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paithiov909/ayatori-nuxt.git"
+    "url": "https://github.com/paithiov909/ayatori-app.git"
   },
   "bugs": {
-    "url": "https://github.com/paithiov909/ayatori-nuxt/issues"
+    "url": "https://github.com/paithiov909/ayatori-app/issues"
   },
-  "homepage": "https://ayatori.netlify.com/",
   "license": "MIT",
   "private": true,
   "main": "main.js",
