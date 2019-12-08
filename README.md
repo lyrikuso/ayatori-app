@@ -6,7 +6,7 @@
 
 Copyright (c) 2019 Kato Akiru
 
-Released under the MIT license https://github.com/paithiov909/ayatori-nuxt/blob/master/LICENSE
+Released under the MIT license https://github.com/paithiov909/ayatori-app/blob/master/LICENSE
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
