@@ -5,10 +5,7 @@
   "author": "paithiov909 <paithiov909@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paithiov909/ayatori-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/paithiov909/ayatori-app/issues"
+    "url": "https://github.com/lyrikuso/ayatori-app.git"
   },
   "license": "MIT",
   "private": true,
